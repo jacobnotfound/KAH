@@ -351,7 +351,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "GET REKT ROFLNUKE " .. currentVersion
+Title.Text = "GET REKT ROFLNUKE "
 
 do
 	local emoji = ({
@@ -6504,7 +6504,7 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if KeepInfYield and (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/jacobnotfound/KAH/refs/heads/main/My%20Infinite%20Yield'))()")
 	end
 end)
 
