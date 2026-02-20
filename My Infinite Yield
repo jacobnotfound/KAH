@@ -12615,7 +12615,7 @@ addcmd("scare", {"spook"}, function(args, speaker)
 	end
 end)
 
-addcmd("sirus", {}, function(args, speaker)
+addcmd("sirius", {}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Offcial/Roblox/refs/heads/main/Sirius.lua"))();
 end)
 
