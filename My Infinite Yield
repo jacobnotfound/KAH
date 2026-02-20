@@ -6579,8 +6579,6 @@ addcmd('source', {'src', 'sourcecode'}, function(args, speaker)
 	if everyClipboard then
 		toClipboard('https://raw.githubusercontent.com/jacobnotfound/KAH/refs/heads/main/My%20Infinite%20Yield')
 		notify('Source Code', 'Copied to clipboard!\nhttps://raw.githubusercontent.com/jacobnotfound/KAH/refs/heads/main/My%20Infinite%20Yield')
-	else
-		notify('Source Code', 'Copied to clipboard!\nhttps://raw.githubusercontent.com/jacobnotfound/KAH/refs/heads/main/My%20Infinite%20Yield')
 end)
 
 addcmd('keepiy', {}, function(args, speaker)
